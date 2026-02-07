@@ -10,7 +10,7 @@ todols is a simple CLI tool to create and manage your Todo List.
 ## Installation
 Clone repository
 ```bash
-git clone https://github.com/Shiv-K-M/{my repo}
+git clone https://github.com/Shiv-K-M/todols
 ```
 Go to inside cloned repository and run:
 ```bash
