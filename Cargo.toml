@@ -1,0 +1,16 @@
+[package]
+name = "todols"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = { version = "0.4.42", features = ["serde",] }
+clap = { version = "4.5.54", features = ["derive"] }
+comfy-table = "7.2.2"
+lexicmp = "0.2.0"
+regex = "1.12.2"
+serde = { version = "1.0.228", features = ["derive",]}
+serde_json = "1.0.149"
+whoami = "2.1.0"
+uuid = { version = "1.19.0", features = ["v4","serde",]}
+

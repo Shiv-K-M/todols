@@ -1,7 +1,12 @@
 # todols (Todo List) v0.1
 
 ## Introduction 
-todols is a simple CLI tool to create and manage your Todo List.
+`todols` is a CLI tool designed to help you create and manage your todo list efficiently. It supports adding, updating, and deleting tasks, as well as filtering and sorting them.
+
+The tool provides visual indicators for task due dates using color coding:
+- Red indicates that the due date has passed.
+- Green indicates that the due date has not yet passed.
+- Yellow indicates that less than three hours remain before the due date.
 
 ## Requirement 
 - Linux Operating System
@@ -42,17 +47,11 @@ Options:
 
 
 ## Sample
-[image]()
+![sample output](./sample/output.png)
 
 ## Contributing
-
-## Todo
-* The filter function should be able to take mulitple child flags and each child flag should be able to handle multiple input (as a vector) for example todols -rfT todo in-progress means all the task that does not contain todo and in-progress must be shown.
+The contribution rules has not been created yet.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE][License file] file for details.
-
-
-[License file]: https://github.com/Shiv-K-M/todols/blob/main/LICENSE 
-
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Shiv-K-M/todols/blob/main/LICENSE) file for details.
 
